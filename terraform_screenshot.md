@@ -36,5 +36,17 @@ After adding the files, download terraform and add path in environment variables
 <img width="940" height="638" alt="image" src="https://github.com/user-attachments/assets/0b9e8c40-ddf8-42b9-82bb-c1b9adb2eb4d" />
 
 
+**Ansible Configuration**
+
+ansible/  
+│── inventory.ini  
+│── ansible.cfg  
+│── web.yml  
+│── db.yml   
+│── deploy.yml  
+
+
+
+
 
 
