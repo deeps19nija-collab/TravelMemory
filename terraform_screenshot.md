@@ -1,4 +1,6 @@
-Create a folder at root with below structure
+Create a folder at root with below structure  
+
+https://github.com/deeps19nija-collab/TravelMemory/tree/main/terraform
 
 terraform/  
 │── provider.tf  
@@ -38,12 +40,15 @@ After adding the files, download terraform and add path in environment variables
 
 **Ansible Configuration**
 
+https://github.com/deeps19nija-collab/TravelMemory/tree/main/ansible  
+
 ansible/  
 │── inventory.ini  
 │── ansible.cfg  
 │── web.yml  
 │── db.yml   
 │── deploy.yml  
+
 
 
 
