@@ -30,3 +30,6 @@ For frontend, you need to create `.env` file and put the following content (reme
 ```bash
 REACT_APP_BACKEND_URL=http://localhost:3001
 ```
+
+Click on the link below to see the terraform -ansible configuration based deployment of this mern application
+https://github.com/deeps19nija-collab/TravelMemory/blob/main/terraform_screenshot.md
