@@ -23,6 +23,9 @@ Data format to be added:
     "shortDescription":"India is a wonderful country with rich culture and good people.",
     "featured": true
 }
+
+Click on the link below to see the terraform -ansible configuration based deployment of this mern application
+https://github.com/deeps19nija-collab/TravelMemory/blob/main/terraform_screenshot.md
 ```
 
 
