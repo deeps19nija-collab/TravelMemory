@@ -1,0 +1,23 @@
+- hosts: web
+  become: yes
+  tasks:
+
+    - name: Install NodeJS
+      apt:
+        name: nodejs
+        state: present
+
+    - name: Install npm
+      apt:
+        name: npm
+        state: present
+
+    - name: Clone repo
+      git:
+        repo: "https://github.com/UnpredictablePrashant/TravelMemory.git"
+        dest: /home/ubuntu/app
+
+    - name: Install dependencies
+      command: npm install
+      args:
+        chdir: /home/ubuntu/app

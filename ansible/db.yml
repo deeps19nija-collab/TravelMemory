@@ -1,0 +1,19 @@
+- hosts: db
+  become: yes
+  tasks:
+
+    - name: Install MongoDB
+      apt:
+        name: mongodb
+        state: present
+
+    - name: Start MongoDB
+      service:
+        name: mongodb
+        state: started
+
+    - name: Disable root login
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^PermitRootLogin'
+        line: 'PermitRootLogin no'
